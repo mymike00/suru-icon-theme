@@ -1,7 +1,7 @@
-Suru Icons & Cursors
+MikeSuru Icons & Cursors
 ====================
 
-This project is a revitalization of the Suru icon set that was designed for Ubuntu Touch. The principles and styles created for Suru now serve as the basis for a new FreeDesktop icon theme.
+This project is an extension of the [	Suru icon set](https://github.com/snwh/suru-icon-theme) to add/overwrite some icons and it will inherit all the other ones. At the moment the cursors are the same as the ones in the Suru icon set
 
 ## Copying or Reusing
 
@@ -17,25 +17,25 @@ You can build and install Suru from source using Meson.
 
 ```bash
 # build
-meson "build" --prefix=/usr
+meson "build" --prefix=$HOME/.local
 # install
 sudo ninja -C "build" install
 ```
 
 By default it installs to `/usr/` but you can specify a different directory with a prefix like: `/usr/local` or `$HOME/.local`.
 
-After which you should be able to pick Suru as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
+After which you should be able to pick MikeSuru as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
 
 ```bash
 # set the icon theme
-gsettings set org.gnome.desktop.interface icon-theme "Suru"
+gsettings set org.gnome.desktop.interface icon-theme "MikeSuru"
 # or the cursor theme
-gsettings set org.gnome.desktop.interface cursor-theme "Suru"
+gsettings set org.gnome.desktop.interface cursor-theme "MikeSuru"
 ```
 
 ### Uninstalling Suru
 
-To uninstall Suru, simply run the following. (If you installed it without superuser priveleges just omit the  `sudo`.)
+To uninstall MikeSuru, simply run the following. (If you installed it without superuser priveleges just omit the  `sudo`.)
 
 ```bash
 sudo ninja -C "build" uninstall
@@ -52,6 +52,4 @@ gsettings reset org.gnome.desktop.interface cursor-theme
 
 ## Contributing
 
-Contributions are obviously welcome! If you would like to contribute to this project, please have [read this](/CONTRIBUTING.md) regarding contributions.
-
-Alternatively, if you would like to support development by making a donation you can do so [here](https://snwh.org/donate).
+If you would like to support the [Suru](https://github.com/snwh/suru-icon-theme) development by making a donation you can do so [here](https://snwh.org/donate).
