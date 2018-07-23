@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-THEME=Suru
+THEME=MikeSuru
 DIR="../../.."
 
 # enter bitmaps folder
