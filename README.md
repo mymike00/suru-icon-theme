@@ -1,7 +1,7 @@
 MikeSuru Icons & Cursors
 ====================
 
-This project is an extension of the [	Suru icon set](https://github.com/snwh/suru-icon-theme) to add/overwrite some icons and it will inherit all the other ones. At the moment the cursors are the same as the ones in the Suru icon set
+This project is an extension of the [Suru icon set](https://github.com/snwh/suru-icon-theme) to add/overwrite some icons. you need to install the Suru icon set (or the [Communitheme](https://github.com/ubuntu/communitheme) theme) to make this extension working so that it can inherit all the other icons. At the moment the cursors are the same as the ones in the Suru icon set
 
 ## Copying or Reusing
 
